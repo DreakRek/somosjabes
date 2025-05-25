@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería - Iglesia Jabes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!-- Header y menú móvil -->
+    <script src="js/load-header.js"></script>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Hero Gallery con efecto parallax -->
+        <section class="gallery-hero" data-aos="fade">
+            <div class="hero-content" data-aos="fade-up" data-aos-delay="300">
+                <h1>Momentos Compartidos</h1>
+                <p>Revive los mejores momentos de nuestra comunidad de fe</p>
+                <div class="scroll-indicator">
+                    <span></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Navigation -->
+        <nav class="gallery-nav">
+            <div class="nav-container">
+                <ul>
+                    <li><a href="#cultos" class="active"><i class="fas fa-church"></i> Cultos</a></li>
+                    <li><a href="#eventos"><i class="fas fa-calendar-star"></i> Eventos</a></li>
+                    <li><a href="#bautismos"><i class="fas fa-water"></i> Bautismos</a></li>
+                    <li><a href="#jovenes"><i class="fas fa-users"></i> Jóvenes</a></li>
+                    <li><a href="#comunidad"><i class="fas fa-hands-helping"></i> Comunidad</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Featured Carousel con efecto 3D -->
+        <section class="featured-carousel" data-aos="fade-up">
+            <div class="section-header">
+                <h2>Destacados</h2>
+                <p>Los momentos más especiales de nuestro ministerio</p>
+            </div>
+            <div class="swiper featured-swiper">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <div class="slide-content">
+                            <div class="slide-image">
+                                <img src="https://scontent.fccp1-1.fna.fbcdn.net/v/t51.75761-15/496799418_18079622179758460_1604255021132385779_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEavUBprpbr14C9IzL9LMT44g0gs2P1Cm3iDSCzY_UKbeLWziRTQ4kcBBf3tbVuf2ocFVkEIUrw8JaPfaFJXOfB&_nc_ohc=qzuPYdtU8UoQ7kNvwHt0RxL&_nc_oc=AdmkjmeXrvTOp5VrOESGFRTI8oCG0b56CdlozlF73AigEu5UOGd_qLsNTlBSQfffBiQ&_nc_zt=23&_nc_ht=scontent.fccp1-1.fna&_nc_gid=veSo7gyyQOo6_UZKMRJf-w&oh=00_AfJ3BpuhCtlWIDTSZX6RXz-RCOqz9BCi0mXn-BHFXy96_g&oe=6835A925"
+                                    alt="Culto Dominical" loading="lazy">
+                            </div>
+                            <div class="slide-overlay">
+                                <div class="overlay-content">
+                                    <span class="badge">Nuevo</span>
+                                    <h3>Culto Dominical</h3>
+                                    <p>Celebración de adoración cada domingo a las 11:00 AM</p>
+                                    <button class="view-more pulse">Ver más <i class="fas fa-arrow-right"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide">
+                        <div class="slide-content">
+                            <div class="slide-image">
+                                <img src="https://scontent.fccp1-1.fna.fbcdn.net/v/t51.75761-15/496034545_18079622194758460_8039401213296229839_n.jpg?stp=dst-jpegr_tt6&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEBApHO63SJxaG4oDjDbijkU6RRy2uE2NFTpFHLa4TY0ZeQuoeh58h9XzWC8qd9YcbgBOvs69w7_c_R1yx3QlE1&_nc_ohc=zPwZv_fRXwYQ7kNvwFR_-DS&_nc_oc=AdnuDvddl7XaahtyQlIoJw5E8FKRTi93nunhH8Q14VLfEVDjJ5OWQy-NSNfSuouI0Ck&_nc_zt=23&se=-1&_nc_ht=scontent.fccp1-1.fna&_nc_gid=bEqMhftc-aqozRTcY8jZNA&oh=00_AfJS7wgmrn5P9yS5TMsyBOZ5Lvu99kruBo6j3kS_z0wDAw&oe=6835B1B5"
+                                    alt="Retiro Juvenil" loading="lazy">
+                            </div>
+                            <div class="slide-overlay">
+                                <div class="overlay-content">
+                                    <span class="badge">Popular</span>
+                                    <h3>Retiro Juvenil 2023</h3>
+                                    <p>Un fin de semana de crecimiento espiritual y compañerismo</p>
+                                    <button class="view-more pulse">Ver más <i class="fas fa-arrow-right"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 3 -->
+                    <div class="swiper-slide">
+                        <div class="slide-content">
+                            <div class="slide-image">
+                                <img src="https://scontent.fccp1-1.fna.fbcdn.net/v/t51.75761-15/491443230_18077754388758460_7142004981747571850_n.jpg?stp=dst-jpegr_tt6&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFLRLNaR7r0aNkfE1vlHUzZhAXtLo2dsfuEBe0ujZ2x-7mXf6sGa8q2zawEOOl1z7NPJlwA8ANWIMNfELXjQ8OI&_nc_ohc=u35wpaVqT90Q7kNvwFEzwy2&_nc_oc=AdkzNNt5TgJCIzdzNwhkZ0O30z8tAVqEdmz0akHR2E58aBStoxXe_nS_HEvaxTInwrk&_nc_zt=23&se=-1&_nc_ht=scontent.fccp1-1.fna&_nc_gid=Wqdtn5PNGXwqgQ6UnkKACQ&oh=00_AfI5mXR4HN6Ek5h5JLTlchjdaHLmnDSl3BjMF60_KUWyHQ&oe=6835AD2C"
+                                    alt="Bautismos" loading="lazy">
+                            </div>
+                            <div class="slide-overlay">
+                                <div class="overlay-content">
+                                    <span class="badge">Emocionante</span>
+                                    <h3>Bautismos</h3>
+                                    <p>Celebración de nuevas vidas en Cristo</p>
+                                    <button class="view-more pulse">Ver más <i class="fas fa-arrow-right"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+
+        <!-- Gallery Sections -->
+        <section id="cultos" class="gallery-section">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Cultos y Adoración</h2>
+                <p>Momentos especiales de encuentro con Dios</p>
+            </div>
+
+            <div class="masonry-grid">
+                <!-- Imagen 1 -->
+                <div class="masonry-item medium" data-aos="fade-up" data-aos-delay="100">
+                    <div class="image-container">
+                        <img src="https://scontent.fccp1-1.fna.fbcdn.net/v/t51.75761-15/491911935_18077754400758460_618909952432977830_n.jpg?stp=dst-jpegr_tt6&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHNlkoiwFow74sAxg18tS-7HcFN81fnRrMdwU3zV-dGs-eAY2itRcNnZpT-zdxwWdrfMAwoCh0dA-AXvCEg0niS&_nc_ohc=MG5aSAw856IQ7kNvwEDSELx&_nc_oc=AdnULzxSXbCkKFqZ_wzzBSz4bTbCVd5rd0K4QUMWsuTuAyhgZ-rMy8sJob9-G2Jqgas&_nc_zt=23&se=-1&_nc_ht=scontent.fccp1-1.fna&_nc_gid=Yh3KVEg4nD5u1_e-ehDOWA&oh=00_AfL0jOiR7OGQ5i3UYVibpyWKsxndjdGT75JreKmUujs41A&oe=6835AF9B"
+                            alt="Culto Dominical" loading="lazy">
+                        <div class="image-hover-effect"></div>
+                    </div>
+                    <div class="item-overlay">
+                        <div class="overlay-content">
+                            <div class="meta-info">
+                                <span class="date"><i class="far fa-calendar"></i> 15 Oct 2023</span>
+                                <span class="likes"><i class="far fa-heart"></i> 42</span>
+                            </div>
+                            <h3>Culto Dominical</h3>
+                            <p>Domingos 11:00 AM - Un tiempo de alabanza y enseñanza bíblica</p>
+                            <div class="social-share">
+                                <i class="fab fa-facebook" title="Compartir en Facebook"></i>
+                                <i class="fab fa-whatsapp" title="Compartir en WhatsApp"></i>
+                                <i class="fas fa-share-alt" title="Compartir"></i>
+                                <i class="fas fa-expand" title="Ver en pantalla completa"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Imagen 2 -->
+                <div class="masonry-item medium" data-aos="fade-up" data-aos-delay="200">
+                    <div class="image-container">
+                        <img src="https://scontent.fccp1-1.fna.fbcdn.net/v/t51.75761-15/491442316_18077754418758460_1617325192525403516_n.jpg?stp=dst-jpegr_tt6&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFoMBM9OSjy6Yn6TRPTDxNa4AGVcAP-pSvgAZVwA_6lK9WEDvGDRoSSafgArEGHb2pZpcj1pWRDzODX1zdX4-pP&_nc_ohc=xjVPmznixIEQ7kNvwGMHXLc&_nc_oc=AdkQE3667w5gRlfw6k5D7wNf7HroOus5o-TncK-Wbf2uiw4hSFUuVCHrk1XUgtuBqC0&_nc_zt=23&se=-1&_nc_ht=scontent.fccp1-1.fna&_nc_gid=vQZCrlej2D_thcXmAlOIcg&oh=00_AfIO5P-pyN-bQn8edywQciukguWbc2n05QDunVGctZjy9g&oe=6835B115"
+                            alt="Adoración" loading="lazy">
+                        <div class="image-hover-effect"></div>
+                    </div>
+                    <div class="item-overlay">
+                        <div class="overlay-content">
+                            <div class="meta-info">
+                                <span class="date"><i class="far fa-calendar"></i> 5 Nov 2023</span>
+                                <span class="likes"><i class="far fa-heart"></i> 28</span>
+                            </div>
+                            <h3>Noche de Adoración</h3>
+                            <p>Primer viernes de cada mes - Un encuentro especial con Dios</p>
+                            <div class="social-share">
+                                <i class="fab fa-facebook" title="Compartir en Facebook"></i>
+                                <i class="fab fa-whatsapp" title="Compartir en WhatsApp"></i>
+                                <i class="fas fa-share-alt" title="Compartir"></i>
+                                <i class="fas fa-expand" title="Ver en pantalla completa"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Imagen 3 -->
+                <div class="masonry-item medium" data-aos="fade-up" data-aos-delay="300">
+                    <div class="image-container">
+                        <img src="https://scontent.fccp1-1.fna.fbcdn.net/v/t51.75761-15/487929776_18076654561758460_8530891921962256784_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHBmKtNtSbtMWFAsC9XewpMRnshGsG650pGeyEawbrnSvwDGy2n-DqjybDcB05uOBSXahoDiWk0-_Vu63Jrm3Hk&_nc_ohc=8aIttehCvW4Q7kNvwHNE-Vg&_nc_oc=AdmNOOOrEDWMeSjdoYi3AQVnE_oAJJmRjnfhnSmM4Ze_AiZpgxdhSMnezpyMDed0sm4&_nc_zt=23&_nc_ht=scontent.fccp1-1.fna&_nc_gid=cvGtZ7IBc8THqzHjMlk_4w&oh=00_AfJZKFNpWpmup9ggrUixpCwox8W4_Bz841KDfbDcKz6LDw&oe=68358067"
+                            alt="Estudio Bíblico" loading="lazy">
+                        <div class="image-hover-effect"></div>
+                    </div>
+                    <div class="item-overlay">
+                        <div class="overlay-content">
+                            <div class="meta-info">
+                                <span class="date"><i class="far fa-calendar"></i> 12 Oct 2023</span>
+                                <span class="likes"><i class="far fa-heart"></i> 35</span>
+                            </div>
+                            <h3>Estudio Bíblico</h3>
+                            <p>Jueves 7:00 PM - Profundizando en la Palabra de Dios</p>
+                            <div class="social-share">
+                                <i class="fab fa-facebook" title="Compartir en Facebook"></i>
+                                <i class="fab fa-whatsapp" title="Compartir en WhatsApp"></i>
+                                <i class="fas fa-share-alt" title="Compartir"></i>
+                                <i class="fas fa-expand" title="Ver en pantalla completa"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Imagen 3 -->
+                <div class="masonry-item medium" data-aos="fade-up" data-aos-delay="300">
+                    <div class="image-container">
+                        <img src="https://scontent.fccp1-1.fna.fbcdn.net/v/t51.75761-15/483298744_18074146294758460_6421705330037044290_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHZ2ffLRrw2nYewo5HwCn6vce1b1L7sGq5x7VvUvuwarvnFL-7XOMUo4xi_x8JZeCrqWQfeKMesWbtlM4JNGSrQ&_nc_ohc=_SEcp0Hw9DsQ7kNvwFv8rAt&_nc_oc=AdkuJUwEUnRpPENvx6nzfXjgr6AMmGDqqT411Qiswjg3jsXvqwCdIzDZlmWK0mIXPqw&_nc_zt=23&_nc_ht=scontent.fccp1-1.fna&_nc_gid=7wufGIccqi12xx2Vxk6JlQ&oh=00_AfIhnK6LBNcgKrC6IYwH0AeZRbA7y7DGr3y8UDjsGHbD8A&oe=6835ABA6"
+                            alt="Estudio Bíblico" loading="lazy">
+                        <div class="image-hover-effect"></div>
+                    </div>
+                    <div class="item-overlay">
+                        <div class="overlay-content">
+                            <div class="meta-info">
+                                <span class="date"><i class="far fa-calendar"></i> 12 Oct 2023</span>
+                                <span class="likes"><i class="far fa-heart"></i> 35</span>
+                            </div>
+                            <h3>Estudio Bíblico</h3>
+                            <p>Jueves 7:00 PM - Profundizando en la Palabra de Dios</p>
+                            <div class="social-share">
+                                <i class="fab fa-facebook" title="Compartir en Facebook"></i>
+                                <i class="fab fa-whatsapp" title="Compartir en WhatsApp"></i>
+                                <i class="fas fa-share-alt" title="Compartir"></i>
+                                <i class="fas fa-expand" title="Ver en pantalla completa"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Más imágenes... -->
+            </div>
+
+            <div class="view-all" data-aos="fade-up">
+                <button class="btn-view-all btn-gradient">Ver todos los cultos <i
+                        class="fas fa-arrow-right"></i></button>
+            </div>
+        </section>
+
+        <!-- Eventos Section -->
+        <section id="eventos" class="gallery-section">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Eventos Especiales</h2>
+                <p>Celebraciones y actividades comunitarias</p>
+            </div>
+
+            <div class="swiper events-swiper" data-aos="fade-up">
+                <div class="swiper-wrapper">
+                    <!-- Evento 1 -->
+                    <div class="swiper-slide event-card">
+                        <div class="card-image">
+                            <img src="https://scontent.fccp1-1.fna.fbcdn.net/v/t51.75761-15/488596756_18076654603758460_3722798076622285287_n.jpg?stp=dst-jpegr_tt6&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFZ3F98k0NCAxPgc0YqxG4_4M8bo3etDrbgzxujd60OtuhdpavOScZ8K79hV9WI4pJDISguJSebCLalAJvZvzGa&_nc_ohc=jvIcyOBiVS4Q7kNvwGLZ6pe&_nc_oc=Adk_YgrlXBD30x7SinQgHrWKM4CrHfZ5f-csloj1a0dFurjSm2Zzv7nsfccuNzjDlFE&_nc_zt=23&se=-1&_nc_ht=scontent.fccp1-1.fna&_nc_gid=BJfN7dLUpaDp3lHVixOqUQ&oh=00_AfK0or6fFIyWTbwj6efoSE3RMGV-UCQggRjEz5mfxAdgtA&oe=6835B373"
+                                alt="Aniversario" loading="lazy">
+                            <div class="image-hover-effect"></div>
+                        </div>
+                        <div class="event-info">
+                            <div class="event-date">
+                                <span class="day">15</span>
+                                <span class="month">Nov</span>
+                            </div>
+                            <h3>15° Aniversario</h3>
+                            <p>Celebración de los 15 años de ministerio de la Iglesia Jabes</p>
+                            <div class="event-stats">
+                                <span><i class="far fa-images"></i> 24 fotos</span>
+                                <span><i class="far fa-heart"></i> 56 likes</span>
+                            </div>
+                            <a href="#" class="event-link">Ver galería completa <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Evento 2 -->
+                    <div class="swiper-slide event-card">
+                        <div class="card-image">
+                            <img src="https://scontent.fccp1-1.fna.fbcdn.net/v/t51.75761-15/488071767_18076654129758460_7473561798302148645_n.jpg?stp=dst-jpegr_tt6&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeE13lHanh1zX1tpYwMFPqocoJpoHJoTo0agmmgcmhOjRh0aB-vufE-szU-uyXu4fZOokAGsfzQUCh9blJqxibck&_nc_ohc=ihC1ou4aJmwQ7kNvwFIho5M&_nc_oc=AdlipOc2jgcWw6hwyMS5p5FA9Z7v_H0E8an6qte_PIdKmO-VMMv3Im9PBzpwT2VoY8s&_nc_zt=23&se=-1&_nc_ht=scontent.fccp1-1.fna&_nc_gid=KOEKpdg8xYSFmdgS6RYuDQ&oh=00_AfKOOARcF2jfMM9AoSzA20KpyV7UwVLuZJlIV4lZEJ88yA&oe=6835B771"
+                                alt="Concierto" loading="lazy">
+                            <div class="image-hover-effect"></div>
+                        </div>
+                        <div class="event-info">
+                            <div class="event-date">
+                                <span class="day">22</span>
+                                <span class="month">Jul</span>
+                            </div>
+                            <h3>Concierto de Alabanza</h3>
+                            <p>Noche especial con bandas locales de música cristiana</p>
+                            <div class="event-stats">
+                                <span><i class="far fa-images"></i> 18 fotos</span>
+                                <span><i class="far fa-heart"></i> 72 likes</span>
+                            </div>
+                            <a href="#" class="event-link">Ver galería completa <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Evento 2 -->
+                    <div class="swiper-slide event-card">
+                        <div class="card-image">
+                            <img src="https://scontent.fccp1-1.fna.fbcdn.net/v/t51.75761-15/482195029_18073452394758460_98838607034621956_n.jpg?stp=dst-jpegr_tt6&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeE2DZoIxlyKIvseuMK4qawA03B0Zn601zXTcHRmfrTXNQhhvgNzTnQRXL3eaCCRijqp4nruAB_bRnPg6L8EWbhE&_nc_ohc=I_eVaBubFvMQ7kNvwGbyEI9&_nc_oc=AdmzVfQD3IWb_VQ6pG5kexQkPHGOaSYakS1DHhh0xf05qAVLgVMIokjl4DR8BeRYoWI&_nc_zt=23&se=-1&_nc_ht=scontent.fccp1-1.fna&_nc_gid=Pfml9rHOKbSZq5VUbf-dkw&oh=00_AfKWQUIgTiSaGxRisMkB2sXbo3VgQeYRxrf_pHaDMqEX1A&oe=6835BE37"
+                                alt="Concierto" loading="lazy">
+                            <div class="image-hover-effect"></div>
+                        </div>
+                        <div class="event-info">
+                            <div class="event-date">
+                                <span class="day">22</span>
+                                <span class="month">Jul</span>
+                            </div>
+                            <h3>Concierto de Alabanza</h3>
+                            <p>Noche especial con bandas locales de música cristiana</p>
+                            <div class="event-stats">
+                                <span><i class="far fa-images"></i> 18 fotos</span>
+                                <span><i class="far fa-heart"></i> 72 likes</span>
+                            </div>
+                            <a href="#" class="event-link">Ver galería completa <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Más eventos... -->
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!-- Video Gallery -->
+        <section class="video-gallery" data-aos="fade-up">
+            <div class="section-header">
+                <h2>Videos Destacados</h2>
+                <p>Revive los momentos especiales en video</p>
+            </div>
+            <div class="video-grid">
+                <div class="video-item"
+                    style="margin-bottom: 30px; border: 1px solid #ddd; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                    <div class="video-wrapper"
+                        style="position: relative; width: 100%; padding-top: 5%; background-color: #000;">
+                        <video class="html5-video"
+                            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: none; border-radius: 0;"
+                            preload="metadata" playsinline>
+                            <source src="images/video2.mp4" type="video/mp4">
+                            Tu navegador no soporta el elemento de video.
+                        </video>
+                        <div class="video-poster"
+                            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('images/video2.mp4') center center / cover no-repeat; cursor: pointer; border-radius: 0;">
+                            <div class="play-button"
+                                style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 50px; color: white; background: rgba(0, 0, 0, 0.5); padding: 20px; border-radius: 50%; cursor: pointer;">
+                                ▶
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-info" style="padding: 15px;">
+                        <h3 style="margin: 0 0 10px;">Culto Dominical Completo</h3>
+                        <div class="video-meta" style="font-size: 14px; color: #777; margin-bottom: 10px;">
+                            <span style="margin-right: 15px;"><i class="far fa-calendar"></i> 15 de Octubre, 2023</span>
+                            <span><i class="far fa-eye"></i> 1.2K vistas</span>
+                        </div>
+                        <p style="margin: 0;">Celebración dominical completa con mensaje del pastor</p>
+                    </div>
+                </div>
+
+                <div class="video-item"
+                    style="margin-bottom: 30px; border: 1px solid #ddd; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                    <div class="video-wrapper"
+                        style="position: relative; width: 100%; padding-top: 5%; background-color: #000;">
+                        <video class="html5-video"
+                            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: none; border-radius: 0;"
+                            preload="metadata" playsinline>
+                            <source src="images/video3.mp4" type="video/mp4">
+                            Tu navegador no soporta el elemento de video.
+                        </video>
+                        <div class="video-poster"
+                            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('images/video3.mp4') center center / cover no-repeat; cursor: pointer; border-radius: 0;">
+                            <div class="play-button"
+                                style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 50px; color: white; background: rgba(0, 0, 0, 0.5); padding: 20px; border-radius: 50%; cursor: pointer;">
+                                ▶
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-info" style="padding: 15px;">
+                        <h3 style="margin: 0 0 10px;">Culto Dominical Completo</h3>
+                        <div class="video-meta" style="font-size: 14px; color: #777; margin-bottom: 10px;">
+                            <span style="margin-right: 15px;"><i class="far fa-calendar"></i> 15 de Octubre, 2023</span>
+                            <span><i class="far fa-eye"></i> 1.2K vistas</span>
+                        </div>
+                        <p style="margin: 0;">Celebración dominical completa con mensaje del pastor</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Instagram Feed -->
+        <section class="instagram-feed" data-aos="fade-up">
+            <div class="section-header">
+                <h2>Síguenos en Instagram</h2>
+                <p>@IglesiaJabes</p>
+            </div>
+            <div class="instagram-grid">
+                <!-- Instagram posts serían cargados dinámicamente via API -->
+                <div class="instagram-item">
+                    <img src="https://placehold.jp/24/cccccc/666666/300x300.png?text=Instagram+1" alt="Instagram Post">
+                    <div class="instagram-overlay">
+                        <div class="instagram-stats">
+                            <span><i class="far fa-heart"></i> 124</span>
+                            <span><i class="far fa-comment"></i> 18</span>
+                        </div>
+                        <a href="#" class="instagram-link" target="_blank"><i class="fab fa-instagram"></i> Ver en
+                            Instagram</a>
+                    </div>
+                </div>
+                <!-- Más posts de Instagram... -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Lightbox Modal Mejorado -->
+    <div id="gallery-lightbox" class="lightbox">
+        <span class="close-btn">&times;</span>
+        <div class="lightbox-content">
+            <div class="lightbox-image-container">
+                <img id="lightbox-image" src="" alt="">
+                <div class="lightbox-loader">
+                    <div class="loader"></div>
+                </div>
+            </div>
+            <div class="lightbox-caption">
+                <div class="caption-header">
+                    <h3 id="lightbox-title"></h3>
+                    <div class="lightbox-actions">
+                        <button class="action-btn like-btn"><i class="far fa-heart"></i> <span
+                                id="like-count">0</span></button>
+                        <button class="action-btn download-btn"><i class="fas fa-download"></i></button>
+                    </div>
+                </div>
+                <p id="lightbox-desc"></p>
+                <div class="lightbox-meta">
+                    <span id="lightbox-date"><i class="far fa-calendar"></i></span>
+                    <span id="lightbox-views"><i class="far fa-eye"></i></span>
+                </div>
+                <div class="lightbox-nav">
+                    <button id="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <span id="image-counter"></span>
+                    <button id="next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v19.0"
+        nonce="XYZ123">
+        </script>
+    <!-- Footer global -->
+    <script src="js/load-footer.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/sidebar.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+
+</html>

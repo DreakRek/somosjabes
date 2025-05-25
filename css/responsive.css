@@ -1,0 +1,123 @@
+/* Media Queries */
+@media (max-width: 992px) {
+    .slide-content h2 {
+        font-size: 2rem;
+    }
+    
+    .slide-content p {
+        font-size: 1rem;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-btn {
+        display: block;
+    }
+    
+    .content-wrapper, .content-wrapper.reverse {
+        flex-direction: column;
+    }
+    
+    .text-content, .image-content {
+        width: 100%;
+    }
+    
+    .slide-content {
+        left: 5%;
+        bottom: 10%;
+        padding: 1rem;
+        max-width: 90%;
+    }
+    
+    .slide-content h2 {
+        font-size: 1.5rem;
+    }
+    
+    .section {
+        padding: 3rem 0;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+    }
+    
+    .footer-section {
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    header h1 {
+        font-size: 1.2rem;
+    }
+    
+    .section-title {
+        font-size: 1.8rem;
+    }
+    
+    .sidebar {
+        width: 250px;
+    }
+}
+/* Ajustes para el menú */
+@media (min-width: 769px) {
+    .menu-btn {
+        display: none; /* Ocultar el botón de menú en desktop */
+    }
+    
+    .sidebar {
+        position: static; /* Quitar posición fija */
+        width: auto;
+        height: auto;
+        transform: none;
+        padding: 0;
+        background: transparent;
+        box-shadow: none;
+    }
+    
+    .sidebar nav ul {
+        display: flex;
+        margin-top: 0;
+        gap: 1.5rem;
+    }
+    
+    .sidebar nav ul li {
+        margin-bottom: 0;
+    }
+    
+    .sidebar nav ul li a {
+        color: var(--text-light);
+        border-bottom: none;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        transition: var(--transition);
+    }
+    
+    .sidebar nav ul li a:hover {
+        background-color: rgba(255,255,255,0.1);
+    }
+    
+    .close-btn {
+        display: none; /* Ocultar botón de cerrar en desktop */
+    }
+    
+
+}
+
+@media (max-width: 768px) {
+    .menu-btn {
+        display: block; /* Mostrar solo en móvil */
+    }
+    
+    .sidebar {
+        left: -300px;
+    }
+    
+    .sidebar.active {
+        left: 0;
+    }
+}
