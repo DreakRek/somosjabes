@@ -13,7 +13,7 @@
 /* Gallery Hero con efecto parallax */
 .gallery-hero {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-                url('https://placehold.jp/24/cccccc/666666/1920x1080.png?text=Galería') center/cover no-repeat fixed;
+                url('https://scontent.fccp1-1.fna.fbcdn.net/v/t51.75761-15/495764053_18079344712758460_5041469699418592027_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFZQe1uUr2rrt3XMu4hyrsDotqEI5LEUU2i2oQjksRRTcKi3ODlD-J2wkwV5gNu8DHEDz6cn_P_HRSeai_ubiZ9&_nc_ohc=cgIOM5KZ_RgQ7kNvwG2UjY-&_nc_oc=Adke_1_6cbHMndAt-0-ZO2skeV65rzeEvqZVBAyob50Z2wXv4YbMSOyneoGsaoDvoqw&_nc_zt=23&_nc_ht=scontent.fccp1-1.fna&_nc_gid=w9ExClO4RFFf0Udn7n_3Hg&oh=00_AfIiswquOiV_TTJbw5xkxfVcPC6cbn3i-1jLEtpsMx5Pyg&oe=683949E7') center/cover no-repeat ;  /*fixed*/
     height: 70vh;
     display: flex;
     align-items: center;
@@ -949,6 +949,7 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transition: var(--transition);
     aspect-ratio: 1/1;
+    
 }
 
 .instagram-item:hover {

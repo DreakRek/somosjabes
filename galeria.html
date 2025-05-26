@@ -24,9 +24,9 @@
             <div class="hero-content" data-aos="fade-up" data-aos-delay="300">
                 <h1>Momentos Compartidos</h1>
                 <p>Revive los mejores momentos de nuestra comunidad de fe</p>
-                <div class="scroll-indicator">
+                <!-- <div class="scroll-indicator">
                     <span></span>
-                </div>
+                </div> -->
             </div>
         </section>
 
@@ -35,9 +35,10 @@
             <div class="nav-container">
                 <ul>
                     <li><a href="#cultos" class="active"><i class="fas fa-church"></i> Cultos</a></li>
-                    <li><a href="#eventos"><i class="fas fa-calendar-star"></i> Eventos</a></li>
+                    <li><a href="#eventos"><i class="fas fa-calendar"></i> Eventos</a></li>
                     <li><a href="#bautismos"><i class="fas fa-water"></i> Bautismos</a></li>
                     <li><a href="#jovenes"><i class="fas fa-users"></i> Jóvenes</a></li>
+                    <li><a href="#video"><i class="fas fa-calendar"></i> Videos</a></li>
                     <li><a href="#comunidad"><i class="fas fa-hands-helping"></i> Comunidad</a></li>
                 </ul>
             </div>
@@ -308,7 +309,7 @@
         </section>
 
         <!-- Video Gallery -->
-        <section class="video-gallery" data-aos="fade-up">
+        <section id="video" class="video-gallery" data-aos="fade-up">
             <div class="section-header">
                 <h2>Videos Destacados</h2>
                 <p>Revive los momentos especiales en video</p>
@@ -373,27 +374,46 @@
         </section>
 
         <!-- Instagram Feed -->
-        <section class="instagram-feed" data-aos="fade-up">
-            <div class="section-header">
-                <h2>Síguenos en Instagram</h2>
-                <p>@IglesiaJabes</p>
-            </div>
-            <div class="instagram-grid">
-                <!-- Instagram posts serían cargados dinámicamente via API -->
-                <div class="instagram-item">
-                    <img src="https://placehold.jp/24/cccccc/666666/300x300.png?text=Instagram+1" alt="Instagram Post">
-                    <div class="instagram-overlay">
-                        <div class="instagram-stats">
-                            <span><i class="far fa-heart"></i> 124</span>
-                            <span><i class="far fa-comment"></i> 18</span>
-                        </div>
-                        <a href="#" class="instagram-link" target="_blank"><i class="fab fa-instagram"></i> Ver en
-                            Instagram</a>
-                    </div>
-                </div>
-                <!-- Más posts de Instagram... -->
-            </div>
-        </section>
+       <section class="instagram-feed" data-aos="fade-up">
+    <div class="section-header">
+        <h2>Síguenos en Instagram</h2>
+        <p>@IglesiaJabes</p>
+    </div>
+    <div class="instagram-grid">
+        <!-- Post 1 -->
+        <div class="instagram-item">
+            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DJX2PPbRBou"
+                data-instgrm-version="14" style="width:100%;">
+            </blockquote>
+        </div>
+        
+        <!-- Post 2 - Agrega más según necesites -->
+        <div class="instagram-item">
+            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DJfzwb1Rtu1"
+                data-instgrm-version="14" style="width:100%;">
+            </blockquote>
+        </div>
+        
+        <!-- Post 2 - Agrega más según necesites -->
+        <div class="instagram-item">
+            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DJVPANixQD7"
+                data-instgrm-version="14" style="width:100%;">
+            </blockquote>
+        </div>
+        
+        <!-- Post 2 - Agrega más según necesites -->
+        <div class="instagram-item">
+            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DIo2E_4RGsx"
+                data-instgrm-version="14" style="width:100%;">
+            </blockquote>
+        </div>
+        
+        <!-- Puedes agregar más posts aquí -->
+    </div>
+</section>
+
+<!-- Asegúrate de incluir el script de Instagram -->
+<script async src="//www.instagram.com/embed.js"></script>
     </main>
 
     <!-- Lightbox Modal Mejorado -->
@@ -411,7 +431,7 @@
                     <h3 id="lightbox-title"></h3>
                     <div class="lightbox-actions">
                         <button class="action-btn like-btn"><i class="far fa-heart"></i> <span
-                                id="like-count">0</span></button>
+                                id="like-count"></span></button>
                         <button class="action-btn download-btn"><i class="fas fa-download"></i></button>
                     </div>
                 </div>
